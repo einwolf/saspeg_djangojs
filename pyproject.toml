@@ -7,8 +7,9 @@ readme = "README.md"
 packages = [{include = "saspeg_djangojs"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-
+python = "^3.9"
+Django = "^3.2"
+djangorestframework = "^3.14.0"
 
 [build-system]
 requires = ["poetry-core"]
