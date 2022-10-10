@@ -12,8 +12,16 @@ python manage.py runserver 0.0.0.0:8000
 ```
 
 ```bash
+# webpack javascript example
 npm init -y
 npm install webpack webpack-cli --save-dev
+npm run dev
+```
+
+```bash
+# react example
+npm install --save-dev babel-loader @babel/core @babel/preset-env @babel/preset-react
+npm install --save react react-dom
 npm run dev
 ```
 
